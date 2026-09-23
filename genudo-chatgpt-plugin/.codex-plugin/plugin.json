@@ -1,0 +1,51 @@
+{
+  "name": "genudo",
+  "version": "2.3.0",
+  "description": "Genudo — the enterprise operating platform for autonomous AI Employees: Aaref (Sales), Adnan (Customer Support), ROZ (Quality Control & Operations), and Sara (WhatsApp Campaign Sender) across WhatsApp, Instagram, Messenger, and Web. Smart onboarding with connected tool ecosystem detection (Meta Ads, Google Sheets, Lovable, Zoho Desk, Zapier). This plugin builds, edits, automates, and analyzes them from ChatGPT and Codex with 33 skills and the Genudo connector.",
+  "author": {
+    "name": "Genudo",
+    "email": "help@genudo.ai",
+    "url": "https://genudo.ai"
+  },
+  "homepage": "https://genudo.ai",
+  "repository": "https://github.com/genudo-ai/genudo_mcp",
+  "license": "MIT",
+  "keywords": [
+    "genudo",
+    "ai-workforce",
+    "aaref",
+    "adnan",
+    "roz",
+    "sara",
+    "sales-agent",
+    "customer-support",
+    "quality-control",
+    "whatsapp",
+    "crm",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Genudo - AI Workforce",
+    "shortDescription": "Deploy and manage autonomous AI Employees across WhatsApp & Social Channels",
+    "longDescription": "Genudo is the enterprise operating platform for autonomous AI Employees across WhatsApp, Instagram, Messenger, and Web. Manage your digital workforce from one inbox and analytics dashboard: deploy 24/7 AI Sales Agents (Aaref), AI Customer Support Agents (Adnan with Zoho Desk / Zendesk integration), Quality Control & Operations (ROZ auditing staff WhatsApp lines, transcribing voice notes, tracking response latency), and the official WhatsApp Campaign Sender (Sara). This plugin gives ChatGPT and Codex 33 skills and full MCP connectivity to audit, author, automate, and build live custom dashboards.",
+    "developerName": "Genudo",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://genudo.ai",
+    "privacyPolicyURL": "https://genudo.ai/legal/privacy-policy",
+    "termsOfServiceURL": "https://genudo.ai/legal/terms-of-service",
+    "defaultPrompt": [
+      "Run onboarding to meet Aaref, Adnan, ROZ, and Sara, and check my connected tools.",
+      "How do I connect ROZ to audit my team's WhatsApp response times?",
+      "Deploy Aaref to qualify and close leads on my WhatsApp sales pipeline.",
+      "Deploy a live, real-time GenuDo performance dashboard for my team."
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}
