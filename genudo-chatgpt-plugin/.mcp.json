@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "genudo": {
+      "type": "http",
+      "url": "https://api.genudo.ai/mcp"
+    }
+  }
+}
